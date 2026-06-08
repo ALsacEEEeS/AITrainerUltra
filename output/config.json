@@ -1,0 +1,31 @@
+{
+  "model_type": "llm",
+  "model_name": "",
+  "output_dir": "./output",
+  "task": "text-generation",
+  "hyperparameters": {
+    "learning_rate": 0.0003,
+    "batch_size": 16,
+    "num_epochs": 10,
+    "warmup_steps": 100,
+    "weight_decay": 0.01,
+    "max_grad_norm": 1.0,
+    "logging_steps": 10,
+    "save_steps": 500,
+    "eval_steps": 500,
+    "gradient_accumulation_steps": 1,
+    "fp16": false,
+    "bf16": false
+  },
+  "dataset": {
+    "path": "",
+    "name": "",
+    "split": "train",
+    "text_column": "text",
+    "max_samples": 500,
+    "max_seq_length": 128
+  },
+  "lora": null,
+  "qlora": null,
+  "scratch_config": null
+}
