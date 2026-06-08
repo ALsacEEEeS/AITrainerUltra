@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+*.egg
+.venv/
+venv/
+
+# Build outputs (but not build/ scripts)
+dist/
+*.spec
+*.exe
+
+# Node
+node_modules/
+frontend/dist/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Training outputs
+output/
+checkpoints/
+runs/
+experiments/
+
+# Runtime data
+data/
+model_store/
+dataset_store/
+kv_cache_offload/
+
+# Database
+*.db
+*.db-shm
+*.db-wal
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+wandb/
+
+# Test cache
+.pytest_cache/
