@@ -1,0 +1,23 @@
+fastapi==0.111.1
+uvicorn[standard]==0.30.6
+websockets>=12.0
+torch>=2.0.0
+transformers>=4.40.0
+diffusers>=0.29.0
+peft>=0.11.0
+bitsandbytes>=0.43.0
+datasets>=2.19.0
+accelerate>=0.30.0
+trl>=0.9.0
+safetensors>=0.4.0
+tensorboard>=2.16.0
+wandb>=0.17.0
+pydantic>=2.7.0
+numpy>=1.26.0
+pillow>=10.3.0
+tqdm>=4.66.0
+tokenizers>=0.19.0
+python-multipart>=0.0.9
+# Apple Silicon 优化依赖 (macOS only)
+# mlx>=0.10.0      # Apple ML框架，M系列芯片训练加速（需macOS + Apple Silicon）
+# coremltools>=7.2  # Apple CoreML转换，ANE量化
